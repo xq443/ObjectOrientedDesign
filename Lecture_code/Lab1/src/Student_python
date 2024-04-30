@@ -1,0 +1,21 @@
+class inClassExample.Student:
+    def __init__(self, name, number, email, major, minor, current_gpa):
+        self.students_name = name
+        self.students_number = number
+        self.students_email = email
+        self.major = major
+        self.minor = minor
+        self.currentGPA = current_gpa
+
+    def display_student_info(self):
+        print(f"Name: {self.students_name}")
+        print(f"inClassExample.Student Number: {self.students_number}")
+        print(f"Email: {self.students_email}")
+        print(f"Major: {self.major}")
+        print(f"Minor: {self.minor}")
+        print(f"Current GPA: {self.currentGPA}")
+
+
+# Example usage:
+student1 = inClassExample.Student("Lorrie Bosch", "1095626", "bosch.lo@northeastern.edu", "Computer Science", "Mathematics", 3.75)
+student1.display_student_info()

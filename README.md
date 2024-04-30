@@ -1,2 +1,2 @@
 # Student_repo_Xujia_Cathy_Qin
-Repo for individual student assignments. 
+Repo for individual student assignments and lecture codes. 
